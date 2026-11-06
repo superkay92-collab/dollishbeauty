@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dollish Beauty</title>
+    <meta name="description" content="Dollish Beauty makeup, hair styling and bridal beauty services in Accra, Ghana.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=4">
+  </head>
+  <body>
+    <div class="announcement">BEAUTY • BRIDAL • STYLING</div>
+
+    <header class="site-header">
+      <div class="brand" aria-label="Dollish Beauty home">
+        <div class="brand-name">DOLLISH <i>BEAUTY</i></div>
+        <div class="brand-subtitle">MAKEUP • HAIR • BRIDAL</div>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="about.html">About</a>
+        <a href="#services">Services</a>
+        <a href="#studio-glam">Studio Glam</a>
+        <a href="#gallery">Portfolio</a>
+        <a href="#shop">Shop</a>
+        <a class="nav-book" href="#book">Book now <span>→</span></a>
+      </nav>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">BEAUTY, REDEFINED</p>
+          <h1>Beauty for your moments, <em>styled for you.</em></h1>
+          <p class="hero-description">From beautifully blended makeup to hair styled with intention, we create looks that feel like you — only elevated.</p>
+
+          <div class="hero-actions">
+            <a class="button button-dark" href="#book">Book your appointment <span>→</span></a>
+            <a class="button button-light" href="#services">Explore services</a>
+          </div>
+
+          <div class="hero-note">
+            <span class="note-line"></span>
+            <span>Professional beauty services in Accra, Ghana</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img src="assets/ama.jpg" alt="Dollish Beauty beauty studio">
+          <div class="round-stamp"><span>Beauty</span><b>studio</b></div>
+          <div class="image-caption">
+            <span>MAKEUP • HAIR • BRIDAL</span>
+            <span>ACCRA, GHANA</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="contact-strip" aria-label="Contact and location details">
+        <a href="https://wa.me/233535889669" target="_blank" rel="noreferrer"><span>WhatsApp</span><strong>+233 53 588 9669</strong></a>
+        <div><span>Location</span><strong>Accra, Ghana</strong></div>
+        <div><span>Appointments</span><strong>By reservation</strong></div>
+      </div>
+
+      <section class="intro section-pad">
+        <h2>Every Look, Every Moment, Perfectly Dollish.</h2>
+        <p class="intro-copy">Your special moments deserve a look that feels personal. Whether you are getting ready for an event, refreshing your hair or planning your bridal glam, we bring care, creativity and attention to every detail.</p>
+      </section>
+
+      <section class="services section-pad" id="services">
+        <div class="section-heading">
+          <h2>Our services</h2>
+          <p>Tailored beauty experiences for events, everyday confidence and unforgettable special moments.</p>
+        </div>
+        <div class="service-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="statement">
+        <p class="eyebrow">A lifestyle in bloom</p>
+        <h2>Every detail feels <em>crafted</em> — from first glance to final look.</h2>
+      </section>
+
+      <section class="social-proof" aria-label="Client experience">
+        <p class="eyebrow">The Dollish experience</p>
+        <blockquote>“Thoughtful, calming and detail-focused — I felt completely like myself, only more confident.”</blockquote>
+        <span>— Dollish Beauty client</span>
+      </section>
+
+      <section class="studio-glam section-pad" id="studio-glam">
+        <div class="section-heading">
+          <p class="eyebrow">Behind the glow</p>
+          <h2>Studio Glam</h2>
+          <p>Watch Dollish Beauty looks come to life in the studio — movement, detail and confidence in every frame.</p>
+        </div>
+        <div class="studio-video-grid">
+          <figure class="studio-video-card">
+            <div class="studio-media-shell">
+              <video playsinline preload="metadata" aria-label="Studio Glam look three">
+                <source src="assets/studio-glam-3.mp4" type="video/mp4">
+              </video>
+              <button class="video-play-button" type="button" aria-label="Play video">▶</button>
+              <button class="video-sound-button" type="button" onclick="toggleVideoSound(this)" aria-label="Mute video" aria-pressed="false">🔊 Sound on</button>
+            </div>
+            <figcaption>Studio Glam — Dramatic Love <strong>GH₵600</strong></figcaption>
+            <button class="studio-book-button" type="button" data-studio-service="Dramatic Love">Book this look</button>
+          </figure>
+          <figure class="studio-video-card">
+            <div class="studio-media-shell">
+              <video playsinline preload="metadata" aria-label="Studio Glam look four">
+                <source src="assets/studio-glam-4.mp4" type="video/mp4">
+              </video>
+              <button class="video-play-button" type="button" aria-label="Play video">▶</button>
+              <button class="video-sound-button" type="button" onclick="toggleVideoSound(this)" aria-label="Mute video" aria-pressed="false">🔊 Sound on</button>
+            </div>
+            <figcaption>Studio Glam — Soft Glam <strong>GH₵400</strong></figcaption>
+            <button class="studio-book-button" type="button" data-studio-service="Soft Glam">Book this look</button>
+          </figure>
+          <figure class="studio-video-card studio-glam-image-card">
+            <div class="studio-media-shell">
+              <img src="assets/studio-glam-1.jpg" alt="Dollish Beauty Studio Glam look featuring IMG_6376">
+              <span class="image-media-note" aria-hidden="true">📷 Studio image</span>
+            </div>
+            <figcaption>Studio Glam — Home Service <strong>GH₵1,500</strong></figcaption>
+            <button class="studio-book-button" type="button" data-studio-service="Home Service">Book this look</button>
+          </figure>
+          <figure class="studio-video-card">
+            <div class="studio-media-shell">
+              <video playsinline preload="metadata" aria-label="Studio Glam look two">
+                <source src="assets/studio-glam-2.mp4" type="video/mp4">
+              </video>
+              <button class="video-play-button" type="button" aria-label="Play video">▶</button>
+              <button class="video-sound-button" type="button" onclick="toggleVideoSound(this)" aria-label="Mute video" aria-pressed="false">🔊 Sound on</button>
+            </div>
+            <figcaption>Studio Glam — Full Glam <strong>GH₵500</strong></figcaption>
+            <button class="studio-book-button" type="button" data-studio-service="Full Glam">Book this look</button>
+          </figure>
+        </div>
+      </section>
+
+      <section class="studio-policy section-pad" aria-labelledby="studio-policy-title">
+        <div class="studio-policy-heading">
+          <p class="eyebrow">Booking information</p>
+          <h2 id="studio-policy-title">Dollish Beauty Policy</h2>
+        </div>
+        <div class="studio-policy-grid">
+          <article>
+            <h3>How to book</h3>
+            <p>DM or email <a href="mailto:afanujustina@gmail.com">afanujustina@gmail.com</a> to check availability.</p>
+            <p>A non-refundable deposit of <strong>GH¢100</strong> is required to secure your appointment.</p>
+            <p>The remaining balance is due on the day of service.</p>
+            <small><strong>NB:</strong> Home service prices may vary depending on location.</small>
+          </article>
+          <article>
+            <h3>Services offered</h3>
+            <ul>
+              <li>Soft Glam</li>
+              <li>Full Glam</li>
+              <li>Dramatic</li>
+              <li>Home Service</li>
+            </ul>
+            <h3>Location</h3>
+            <p>Botwe Nanakrom</p>
+          </article>
+          <article>
+            <h3>Policies</h3>
+            <ul>
+              <li>Please arrive on time for your appointment. A 10-minute grace period is allowed.</li>
+              <li>After 10 minutes, a late fee of GH¢200 will be added to your total.</li>
+              <li>If you are more than 15–20 minutes late, your appointment may be cancelled and your deposit forfeited.</li>
+              <li>No extra guests unless discussed beforehand.</li>
+              <li>Rescheduling must be made at least 4 hours in advance.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="portfolio section-pad" id="gallery">
+        <div class="section-heading">
+          <h2>Recent looks</h2>
+          <p>Soft glam, polished finishes and styling that keeps the focus on your natural glow.</p>
+        </div>
+        <div class="portfolio-filters" role="group" aria-label="Filter portfolio">
+          <button class="active" type="button" data-filter="all">All looks</button>
+          <button type="button" data-filter="makeup">Makeup</button>
+          <button type="button" data-filter="bridal">Bridal</button>
+          <button type="button" data-filter="hair">Hair</button>
+        </div>
+        <div class="portfolio-grid" aria-live="polite"></div>
+        <div class="portfolio-note">Styled for events, portraits, bridal moments and everyday confidence.</div>
+      </section>
+
+      <section class="shop section-pad" id="shop">
+        <div class="shop-heading">
+          <div>
+            <p class="eyebrow">The shop</p>
+            <h2>Good hair days, the Dollish way.</h2>
+            <p>Explore our hair collection, including frontal laces and blended ponytails. Message us for current styles, lengths, availability and prices.</p>
+          </div>
+          <div class="shop-image">
+            <img src="assets/IMG_0182.jpg" alt="Hair styling and beauty products">
+          </div>
+        </div>
+
+        <div class="product-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-gallery" aria-label="Meet the founder of Dollish Beauty">
+          <img src="assets/IMG_1151.jpg" alt="Dollish Beauty founder portrait">
+          <img src="assets/IMG_1152.jpg" alt="Dollish Beauty founder beauty portrait">
+          <img src="assets/IMG_1153.jpg" alt="Dollish Beauty founder in studio">
+        </div>
+
+        <div class="about-copy section-pad">
+          <p class="eyebrow">About</p>
+          <h2>About Dollish Beauty</h2>
+          <p>Every Look, Every Moment — Perfectly Dollish.</p>
+          <p>Based in Accra, Ghana, Dollish Beauty creates beautifully tailored makeup, hairstyling, bridal glam and premium hair looks with care, creativity and attention to detail.</p>
+          <p>Whether it is your wedding, a special occasion or simply a moment for yourself, we want you to feel confident, elegant and completely beautiful.</p>
+          <p><strong>Every Detail Matters. Every Woman Deserves to Feel Her Most Beautiful.</strong></p>
+        </div>
+      </section>
+
+      <section class="booking section-pad" id="book">
+        <div class="booking-intro">
+          <p class="eyebrow">Book</p>
+          <h2>Let’s create your next look.</h2>
+          <p>Tell us a little about your vision and preferred date. A <strong>GH₵100 reservation fee</strong> is charged to secure your booking spot. We normally respond within a few hours to confirm availability and payment details.</p>
+
+          <div class="booking-contact">
+            <span>WhatsApp / Call</span>
+            <a href="https://wa.me/233535889669" target="_blank" rel="noreferrer">+233 535 889 669</a>
+            <span>Instagram</span>
+            <a href="https://instagram.com/dollish_beauty" target="_blank" rel="noreferrer">@dollish_beauty</a>
+            <span>TikTok</span>
+            <a href="https://tiktok.com/@dollish_gh" target="_blank" rel="noreferrer">@dollish_gh</a>
+            <span>Snapchat</span>
+            <a href="https://www.snapchat.com/add/dollishbyjustyn" target="_blank" rel="noreferrer">@dollishbyjustyn</a>
+          </div>
+        </div>
+
+        <form id="booking-form" class="booking-form" novalidate>
+          <div class="form-title">
+            <span>Appointment enquiry</span>
+            <span>Fast reply</span>
+          </div>
+
+          <div class="form-row">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required>
+            </div>
+            <div>
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" placeholder="Your phone number" required>
+            </div>
+          </div>
+
+          <label for="service">Service</label>
+          <select id="service" name="service" required>
+            <option value="">Select a service</option>
+            <option>Makeup Artistry</option>
+            <option>Hair Styling</option>
+            <option>Ponytail Bundles &amp; Frontal Laces</option>
+            <option>Bridal Styling</option>
+          </select>
+
+          <div class="form-row">
+            <div>
+              <label for="appointmentType">Appointment type</label>
+              <select id="appointmentType" name="appointmentType" required>
+                <option value="">Choose one</option>
+                <option>Consultation</option>
+                <option>Trial</option>
+                <option>Event booking</option>
+              </select>
+            </div>
+            <div>
+              <label for="date">Preferred date</label>
+              <input id="date" name="date" type="date" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div>
+              <label for="time">Preferred time</label>
+              <input id="time" name="time" type="time" required>
+            </div>
+          </div>
+
+          <label for="details">Additional details <span class="optional">(optional)</span></label>
+          <textarea id="details" name="details" rows="4" placeholder="Tell us about your look, event, date or styling goals."></textarea>
+
+          <label class="policy-confirmation"><input type="checkbox" required> I have read the booking policies and understand that a GH₵100 reservation fee is required.</label>
+          <button class="button button-dark submit-button" type="submit">Send enquiry</button>
+          <p id="form-feedback" class="form-feedback" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <section class="faq section-pad" id="faq" aria-labelledby="faq-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Good to know</p>
+          <h2 id="faq-title">Frequently asked questions</h2>
+        </div>
+        <p>Quick answers before you secure your Dollish Beauty appointment.</p>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>How do I secure a booking?</summary>
+          <p>Send your enquiry through the booking form or WhatsApp. Once availability is confirmed, a GH₵100 reservation fee is required for standard appointments.</p>
+        </details>
+        <details>
+          <summary>Where is Dollish Beauty located?</summary>
+          <p>Appointments are available in Accra, Ghana. Studio and mobile locations are confirmed when we discuss your booking.</p>
+        </details>
+        <details>
+          <summary>Can I request a bridal trial?</summary>
+          <p>Yes. Bridal trials are available separately and should be booked in advance so we can plan your wedding look properly.</p>
+        </details>
+        <details>
+          <summary>How quickly will you reply?</summary>
+          <p>We normally respond within a few hours. For urgent enquiries, WhatsApp us directly using the contact details above.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="booking-policy section-pad" id="policies" aria-labelledby="policy-title">
+      <div class="policy-copy">
+        <p class="eyebrow">Before booking</p>
+        <h2 id="policy-title">Bridal booking policy</h2>
+        <p>Thank you for considering Dollish Beauty for your wedding day. Please read these terms before confirming your booking.</p>
+        <div class="policy-booking">
+          <span>Reservations</span>
+          <strong>A 50% non-refundable deposit secures your wedding date.</strong>
+          <span>The remaining 50% balance is due at least 7 days before the wedding.</span>
+          <a href="mailto:afanujustina@gmail.com">afanujustina@gmail.com</a>
+          <span>Or message Dollish Beauty on WhatsApp to check availability.</span>
+        </div>
+      </div>
+      <div class="policy-details">
+        <div class="policy-services">
+          <h3>The bridal collection</h3>
+          <dl>
+            <div><dt>Bridal Glam — makeup only</dt><dd>GH₵3,000</dd></div>
+            <div><dt>Bridal Hair Experience — installation only</dt><dd>GH₵2,000</dd></div>
+            <div><dt>Complete Dollish Experience — makeup + hair</dt><dd>GH₵5,000</dd></div>
+          </dl>
+          <p class="policy-note">The bride provides the frontal unit or hair extensions. Trials, transportation, full-day attendance and bridal party services are charged separately.</p>
+        </div>
+      </div>
+
+      <div class="policy-rules">
+        <h3>Booking &amp; preparation</h3>
+        <ul>
+          <li>Bookings are recommended 1–3 months before the wedding and are subject to availability. Verbal agreements do not secure a date.</li>
+          <li>Additional services requested after confirmation will attract additional charges.</li>
+          <li>Share makeup inspiration, allergies, sensitivities and skin concerns before the appointment. Wedding-day look changes may attract an extra charge.</li>
+          <li>The bride provides frontal units or hair extensions and must make them available within the agreed preparation timeframe.</li>
+          <li>Trials are optional and charged separately. Changes to the agreed look should be communicated before the wedding.</li>
+          <li>Bridal party services require advance confirmation and are priced separately.</li>
+        </ul>
+      </div>
+      <div class="policy-rules">
+        <h3>Arrival, travel &amp; cancellations</h3>
+        <ul>
+          <li>The bride and bridal party should be ready at the agreed appointment time. Delays, waiting time and extended hours may attract extra charges.</li>
+          <li>Studio and mobile services are available subject to confirmation. Transportation and accommodation expenses are charged separately.</li>
+          <li>Outside locations and very early call times must be discussed in advance.</li>
+          <li>Standard packages cover only the agreed service. Wedding-day touch-ups are not included; full-day attendance is available at an additional cost.</li>
+          <li>Deposits are non-refundable. Rescheduling is subject to availability and should be communicated as early as possible.</li>
+          <li>Please provide a clean, comfortable and adequately lit preparation area.</li>
+        </ul>
+      </div>
+      <p class="policy-acceptance">Dollish Beauty may request permission to photograph or record the completed look for portfolio and promotional use. Client privacy preferences will be respected. By paying the deposit and confirming a booking, you acknowledge that you have read and agreed to these policies.</p>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <div class="brand-name">DOLLISH <i>BEAUTY</i></div>
+          <div class="brand-subtitle">MAKEUP • HAIR • BRIDAL</div>
+        </div>
+        <p>Every Look, Every Moment — <em>Perfectly Dollish.</em></p>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="about.html">About</a>
+          <a href="#services">Services</a>
+          <a href="#gallery">Portfolio</a>
+          <a href="#shop">Hair shop</a>
+          <a href="#policies">Policies</a>
+          <a href="#book">Book now</a>
+          <a href="https://wa.me/233535889669" target="_blank" rel="noreferrer">WhatsApp</a>
+          <a href="https://instagram.com/dollish_beauty" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://tiktok.com/@dollish_gh" target="_blank" rel="noreferrer">TikTok</a>
+          <a href="https://www.snapchat.com/add/dollishbyjustyn" target="_blank" rel="noreferrer">Snapchat</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Dollish Beauty</span>
+        <span>Accra, Ghana · Appointments by confirmation</span>
+        <span>GH₵100 reservation fee required to secure a booking.</span>
+      </div>
+    </footer>
+
+    <a class="desktop-book-action" href="#book">Book now <span>→</span></a>
+    <div class="mobile-action-bar" aria-label="Quick booking actions">
+      <a href="#book">Book now</a>
+      <a href="https://wa.me/233535889669" target="_blank" rel="noreferrer">WhatsApp</a>
+    </div>
+
+    <div class="image-lightbox" id="image-lightbox" role="dialog" aria-modal="true" aria-label="Expanded image" hidden>
+      <button class="lightbox-close" type="button" aria-label="Close image">×</button>
+      <img class="lightbox-image" src="" alt="">
+    </div>
+
+    <script src="cms-data.js?v=20261104b"></script>
+        <script src="cms.js?v=20261104b"></script>
+    <script src="script.js?v=20261104"></script>
+  </body>
+</html>
